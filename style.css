@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ChatApp - Connect with friends easily. Download ChatApp setup for Windows.">
+    <meta name="keywords" content="ChatApp, Chat, Messaging, Download ChatApp">
+    <meta name="author" content="BENAYAS LEULSEGED">
+    <title>ChatApp - Messaging Made Easy</title>
+    <style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background: url('beni2.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: #fff;
+            text-align: center;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        h1 {
+            font-size: 4em;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 10px rgba(0,0,0,0.7);
+        }
+
+        p {
+            font-size: 1.3em;
+            margin-bottom: 40px;
+            max-width: 600px;
+            text-shadow: 1px 1px 8px rgba(0,0,0,0.7);
+        }
+
+        .download-btn {
+            background: (135deg, #ff416c, #ff4b2b);
+            padding: 18px 50px;
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.5em;
+            border-radius: 50px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+            transition: all 0.3s ease;
+        }
+
+        .download-btn:hover {
+            transform: scale(1.1);
+            box-shadow: 0 12px 25px rgba(0,0,0,0.6);
+        }
+
+        footer {
+            position: absolute;
+            bottom: 20px;
+            font-size: 0.9em;
+            color: rgba(255,255,255,0.7);
+        }
+    </style>
+</head>
+<body>
+    <h1>ChatApp</h1>
+    <p>Connect with your friends and family instantly. Download the ChatApp setup for Windows and start chatting today!</p>
+    <a class="download-btn" href="ChatAppSetup.exe" download>Download Setup</a>
+    <footer>&copy; 2025 BENAYAS LEULSEGED. All Rights Reserved.</footer>
+</body>
+</html>
